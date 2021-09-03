@@ -2,7 +2,7 @@
 
 #[get("/")]
 fn index() -> &'static str {
-    "Fuck you!"
+    "Hello, world!"
 }
 
 #[launch]
